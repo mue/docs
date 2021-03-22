@@ -11,16 +11,26 @@ module.exports = {
   projectName: 'docs',
   themeConfig: {
     navbar: {
-      title: 'Mue Docs',
+      title: 'Mue',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Mue Logo',
+        src: 'https://raw.githubusercontent.com/mue/branding/master/logo/logo_round.png',
       },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
+          position: 'left',
+        },
+        {
+          to: 'support/',
+          label: 'Support',
+          position: 'left',
+        },
+        {
+          to: 'https://muetab.com',
+          label: 'Website',
           position: 'left',
         }
       ],
@@ -41,16 +51,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'ProductHunt',
+              href: 'https://www.producthunt.com/posts/mue',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: ' https://discord.gg/zv8C9F8',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/getmue',
             },
           ],
         },

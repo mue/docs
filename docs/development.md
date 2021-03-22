@@ -22,7 +22,7 @@ which is embedded on the Mue website.
 4. Code your heart out! (See the sections below for how to build the extension)
 
 #### Building
-1. Run ```yarn run build`` or ``npm run build``
+1. Run ``yarn run build`` or ``npm run build``
 2. Run the command for your browser (chrome, firefox, opera), for example ``yarn run chrome``
 
 #### Browser
