@@ -9,6 +9,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'mue', 
   projectName: 'docs',
+  onBrokenLinks: 'warn',
   themeConfig: {
     navbar: {
       title: 'Mue',
