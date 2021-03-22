@@ -5,7 +5,8 @@ module.exports = {
       label: 'Welcome',
       items: [
         'introduction',
-        'changelog'
+        'changelog',
+        'faq'
       ]
     },
     {
@@ -13,7 +14,8 @@ module.exports = {
       label: 'Getting Started',
       items: [
         'installation',
-        'overview'
+        'overview',
+        'development'
       ]
     },
     {
@@ -23,6 +25,16 @@ module.exports = {
         'api-introduction',
         'api-endpoints',
         'api-changelog'
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Marketplace',
+      items: [
+        'marketplace-introduction',
+        'marketplace-create',
+        'marketplace-submit',
+        'marketplace-endpoints'
       ]
     }
   ],

@@ -7,11 +7,11 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'mue', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'mue', 
+  projectName: 'docs',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Mue Docs',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -73,9 +73,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/mue/docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
