@@ -14,7 +14,6 @@ module.exports = {
       label: 'Getting Started',
       items: [
         'installation',
-        'overview',
         'development'
       ]
     },
@@ -22,20 +21,20 @@ module.exports = {
       type: 'category',
       label: 'API',
       items: [
-        'api-introduction',
-        'api-endpoints',
-        'api-changelog'
+        'api/introduction',
+        'api/endpoints',
+        'api/changelog'
       ]
     },
     {
       type: 'category',
       label: 'Marketplace',
       items: [
-        'marketplace-introduction',
-        'marketplace-create',
-        'marketplace-submit',
-        'marketplace-endpoints'
+        'marketplace/introduction',
+        'marketplace/create',
+        'marketplace/submit',
+        'marketplace/endpoints'
       ]
     }
-  ],
+  ]
 };
