@@ -14,7 +14,8 @@ module.exports = {
       label: 'Getting Started',
       items: [
         'installation',
-        'development'
+        'development',
+        'translations'
       ]
     },
     {

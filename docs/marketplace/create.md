@@ -85,9 +85,4 @@ In the future, there may be a ``language`` option, so if you want you can includ
 ```
 If you want to find out the available settings, open dev tools on Mue, go to local storage and try changing the settings on the modal to see the keys and values. Currently, it is not possible to include quote packs etc in your preset but we may add it in the future.
 
-**Themes**
-
-We're currently researching ways of how to safely implement this, so for now theme submission is disabled.
-
-
-After you've created your add-on, save it like this: "crunchyroll_hime.json" (for if your pack was called Crunchyroll Hime)
+After you've created your add-on, save it like this: "crunchyroll_hime.json" (for if your pack was called Crunchyroll Hime). You can then test it out by going to My Add-ons -> Sideload in the Mue settings modal.

@@ -4,10 +4,16 @@ title: Changelog
 
 The changelog dates use the DD-MM-YYY format.
 
+### 1.5.0 - 20/05/21
+#### Changed
+* URLs for all endpoints have been changed
+#### Removed
+* Unsplash documentation as it's private
+* Information about marketplace themes as they are no longer planned
+
 ### 1.4.0 - 14/01/21
 #### Added
-* Documentation now covers marketplace and Unsplash information
-* Unsplash route to main API, deprecating the old server
+* Documentation now covers marketplace information
 * /getQuoteLanguages route and allow getting quotes in other languages
 
 #### Changed
