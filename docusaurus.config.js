@@ -19,19 +19,19 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'introduction',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Read Docs',
           position: 'left',
         },
         {
-          to: 'support/',
-          label: 'Support',
+          to: 'support',
+          label: 'Get Support',
           position: 'left',
         },
         {
           to: 'https://muetab.com',
-          label: 'Website',
+          label: 'Visit Website',
           position: 'left',
         }
       ],
@@ -75,7 +75,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Mue Tab. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Mue Tab`,
     },
   },
   presets: [
@@ -86,6 +86,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/mue/docs/edit/main/',
+            routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

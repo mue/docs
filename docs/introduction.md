@@ -1,6 +1,6 @@
 ---
 title: Introduction
-slug: /
+slug: /introduction
 ---
 
 Welcome to the documentation for Mue: a fast, free and opensource new tab extension for modern browsers.

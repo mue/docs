@@ -36,6 +36,14 @@ module.exports = {
         'marketplace/submit',
         'marketplace/endpoints'
       ]
+    },
+    {
+      type: 'category',
+      label: 'Blog',
+      items: [
+        'blog/introduction',
+        'blog/endpoints'
+      ]
     }
   ]
 };
