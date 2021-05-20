@@ -9,26 +9,67 @@ Unlike the rest of the API endpoints, the Marketplace runs on its own instance a
 
 Returns hello world message.
 #### Response
-Type | Code | Response
---- | --- | ---
-OK | 200 | ```{"message":"Hello World"}```
+```json
+{
+    "message":"Hello World"
+}
+```
+
 ### Get All Items
 ```https://marketplace.muetab.com/all```
 
 This endpoint returns all marketplace items with description etc removed. The information is used by the marketplace homepage so there is only data it requires in this endpoint.
 #### Response
-Type | Code | Response
---- | --- | ---
-OK | 200 | ```{"data":{"settings":[],"photo_packs":[{"name":"crunchyroll_hime","display_name":"Crunchyroll Hime","icon_url":"https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png","author":"ohlookitsderpy"},{"name":"halloween","display_name":"Halloween","icon_url":"https://publicdomainvectors.org/photos/hattedpumpkin-tkuczamix.png","author":"ohlookitsderpy"},{"name":"low_poly","display_name":"Low Poly Pack","icon_url":"https://i.ibb.co/4J3zrnd/polypacklogo.png","author":"Jack Shanks"},{"name":"winter","display_name":"Winter","icon_url":"https://i.imgur.com/wDMOsaP.png","author":"eartharoid"}],"quote_packs":[],"themes":[]}}```
+```json
+{
+    "data": {
+        "settings": [],
+        "photo_packs": [
+        {
+            "name": "crunchyroll_hime",
+            "display_name": "Crunchyroll Hime",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png",
+            "author": "ohlookitsderpy"
+        },
+        {
+            "name": "halloween",
+            "display_name": "Halloween",
+            "icon_url": "https://publicdomainvectors.org/photos/hattedpumpkin-tkuczamix.png",
+            "author": "ohlookitsderpy"
+        },
+        {
+            "name": "low_poly",
+            "display_name": "Low Poly Pack",
+            "icon_url": "https://i.ibb.co/4J3zrnd/polypacklogo.png",
+            "author": "Jack Shanks"
+        },
+        {
+            "name": "winter",
+            "display_name": "Winter",
+            "icon_url": "https://i.imgur.com/wDMOsaP.png",
+            "author": "eartharoid"
+        }],
+        "quote_packs": []
+    }
+}
+```
 
 ### Get Featured
 ```https://marketplace.muetab.com/featured```
 
 This endpoint returns the featured information for the section on the marketplace screen.
 #### Response
-Type | Code | Response
---- | --- | ---
-OK | 200 | ```{"data":{"title":"FEATURE CHANGELOG","name":"MUE MARKETPLACE","buttonText":"READ BLOG","buttonLink":"","colour":"#ff7f50"}}```
+```json
+{
+    "data": {
+        "title": "FEATURE CHANGELOG",
+        "name": "MUE MARKETPLACE",
+        "buttonText": "READ BLOG",
+        "buttonLink": "",
+        "colour": "#ff7f50"
+    }
+}
+```
 
 #### Get Item
 ```https://marketplace.muetab.com/item```
@@ -40,6 +81,19 @@ Parameter | Type | Info
 name | string | Name of item to search for
 category | string | Category to search in
 #### Response
-Type | Code | Response
---- | --- | ---
-OK | 200 | ```{"updated":"12th Dec 2020","data":{"name":"Crunchyroll Hime","description":"Official wallpapers brought to you by Crunchyroll\n Read more here: https://www.crunchyroll.com/anime-news/2020/05/07/let-hime-spice-up-your-virtual-backgrounds-with-some-free-wallpapers\n Please note that ohlookitsderpy and Mue are not affiliated with Crunchyroll.","icon_url":"https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png","screenshot_url":"https://u.derpyenterprises.org/CcNj","type":"photos","verified":false,"version":"1.0.0","author":"ohlookitsderpy","photos":[{}]}}```
+```json
+{
+    "updated": "12th Dec 2020",
+    "data": {
+        "name": "Crunchyroll Hime",
+        "description": "removed\ntest https://google.com",
+        "icon_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png",
+        "screenshot_url": "https://u.derpyenterprises.org/CcNj",
+        "type": "photos", 
+        "verified": false,
+        "version": "1.0.0",
+        "author": "ohlookitsderpy",
+        "photos": [{}]
+    }
+}
+```

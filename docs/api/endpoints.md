@@ -5,7 +5,6 @@ title: Endpoints
 There are endpoints for images, quotes and update information.
 
 ## Images
-
 #### Get Random Image
 ```https://api.muetab.com/images/random```
 
@@ -15,10 +14,17 @@ Parameter | Type | Info
 --- | --- | ---
 category (optional) | string | Returns random image from specific category
 #### Response
-Type | Code | Response
---- | --- | ---
-OK | 200 | ```{"id":186,"category":"Outdoors","file":"https://img.muetab.com/mue/78ff331a7aa4bda3.jpg","photographer":"David Ralph","location":"Cotswold Wildlife Park", "camera": "Samsung Galaxy S8", "resolution": null}```
-Not Found | 404 | ```Vercel 404 error```
+```json 
+{
+    "id": 186,
+    "category": "Outdoors",
+    "file": "https://img.muetab.com/mue/78ff331a7aa4bda3.jpg",
+    "photographer": "David Ralph",
+    "location": "Cotswold Wildlife Park", 
+    "camera": "Samsung Galaxy S8", 
+    "resolution": null
+}
+```
 
 #### Get Image by ID
 ```https://api.muetab.com/images/:id```
@@ -29,31 +35,38 @@ Parameter | Type | Info
 --- | --- | ---
 id | number | Returns information for specific image ID
 #### Response
-Type | Code | Response
---- | --- | ---
-OK | 200 | ```{"id":186,"category":"Outdoors","file":"https://img.muetab.com/mue/78ff331a7aa4bda3.jpg","photographer":"David Ralph","location":"Cotswold Wildlife Park", "camera": "Samsung Galaxy S8", "resolution": null}```
-Not Found | 404 | ```Vercel 404 error```
+```json 
+{
+    "id": 186,
+    "category": "Outdoors",
+    "file": "https://img.muetab.com/mue/78ff331a7aa4bda3.jpg",
+    "photographer": "David Ralph",
+    "location": "Cotswold Wildlife Park", 
+    "camera": "Samsung Galaxy S8", 
+    "resolution": null
+}
+```
 
 ### Get Categories
 ```https://api.muetab.com/images/categories```
 
 This endpoint returns all categories in an array.
 #### Response
-Type | Code | Response
---- | --- | ---
-OK | 200 | ```["Outdoors"]```
+```json
+["Outdoors"]
+```
 
 ### Get Photographers
 ```https://api.muetab.com/images/photographers```
 
 This endpoint returns all photographers in an array.
 #### Response
-Type | Code | Response
---- | --- | ---
-OK | 200 | ```["photographer1", "photographer2"]```
+```json
+["photographer1", "photographer2"]
+```
+
 
 ## Quotes
-
 #### Get Random Quote
 ```https://api.muetab.com/quotes/random```
 
@@ -63,10 +76,14 @@ Parameter | Type | Info
 --- | --- | ---
 language (optional) | string | Get a random quote in a specific language
 #### Response
-Type | Code | Response
---- | --- | ---
-OK | 200 | ```{"id":4,"author":"E.E Cummings","quote":"It takes courage to grow up and become who you really are.","language":"English"}```
-Not Found | 404 | ```Vercel 404 error```
+```json
+{
+    "id": 4,
+    "author": "E.E Cummings",
+    "quote": "It takes courage to grow up and become who you really are.",
+    "language": "English"
+}
+```
 
 #### Get Quote by ID
 ```https://api.muetab.com/quotes/:id```
@@ -77,27 +94,34 @@ Parameter | Type | Info
 --- | --- | ---
 id | number | Returns information for specific quote ID
 #### Response
-Type | Code | Response
---- | --- | ---
-OK | 200 | ```{"id":4,"author":"E.E Cummings","quote":"It takes courage to grow up and become who you really are.","language":"English"}```
-Not Found | 404 | ```Vercel 404 error```
+```json
+{
+    "id": 4,
+    "author": "E.E Cummings",
+    "quote": "It takes courage to grow up and become who you really are.",
+    "language": "English"
+}
+```
 
 ### Get Quote Languages
 ```https://api.muetab.com/quotes/languages```
 
 This endpoint returns all quote languages in an array.
 #### Response
-Type | Code | Response
---- | --- | ---
-OK | 200 | ```["English", "French"]```
+```json
+["English", "French"]
+```
+
 
 ## Other
-
 #### /
 ```https://api.muetab.com```
 
 Returns hello world message.
 #### Response
-Type | Code | Response
---- | --- | ---
-OK | 200 | ```Hello world! Documentation can be found at https://docs.muetab.com```
+```json
+{
+    "version": "1.4.0",
+    "message": "Hello World! API docs: https://docs.muetab.com"
+}
+```
