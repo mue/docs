@@ -29,7 +29,7 @@ automatically deploy new changes to our [demo](https://demo.muetab.com) which is
 If you need to add the built extension to your browser, follow these steps:
 1. Visit the extensions page in your browser (this is normally accessible through ``<browsername>://extensions``, e.g ``edge://extensions``)
 2. Check the "Developer Mode" toggle
-3. Click load unpacked and find your manifest.json in the build directory
+3. Click "Load Unpacked" and find your manifest.json in the build directory
 4. Click ok and then open a new tab. You may need to disable the production Mue extension for your development one to appear
 
 ## API
