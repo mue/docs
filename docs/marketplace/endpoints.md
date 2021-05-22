@@ -29,13 +29,13 @@ This endpoint returns all marketplace items with description etc removed. The in
             "name": "crunchyroll_hime",
             "display_name": "Crunchyroll Hime",
             "icon_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png",
-            "author": "ohlookitsderpy"
+            "author": "davidjcralph"
         },
         {
             "name": "halloween",
             "display_name": "Halloween",
             "icon_url": "https://publicdomainvectors.org/photos/hattedpumpkin-tkuczamix.png",
-            "author": "ohlookitsderpy"
+            "author": "davidjcralph"
         },
         {
             "name": "low_poly",
@@ -92,7 +92,7 @@ category | string | Category to search in
         "type": "photos", 
         "verified": false,
         "version": "1.0.0",
-        "author": "ohlookitsderpy",
+        "author": "davidjcralph",
         "photos": [{}]
     }
 }

@@ -18,7 +18,7 @@ category (optional) | string | Returns random image from specific category
 {
     "id": 186,
     "category": "Outdoors",
-    "file": "https://img.muetab.com/mue/78ff331a7aa4bda3.jpg",
+    "file": "https://res.cloudinary.com/mue/image/upload/photos/old/78ff331a7aa4bda3.jpg",
     "photographer": "David Ralph",
     "location": "Cotswold Wildlife Park", 
     "camera": "Samsung Galaxy S8", 
@@ -39,7 +39,7 @@ id | number | Returns information for specific image ID
 {
     "id": 186,
     "category": "Outdoors",
-    "file": "https://img.muetab.com/mue/78ff331a7aa4bda3.jpg",
+    "file": "https://res.cloudinary.com/mue/image/upload/photos/old/78ff331a7aa4bda3.jpg",
     "photographer": "David Ralph",
     "location": "Cotswold Wildlife Park", 
     "camera": "Samsung Galaxy S8", 

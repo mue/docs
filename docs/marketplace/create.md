@@ -14,7 +14,7 @@ All add-ons are created in the JSON format. Sadly, there is no way to test them 
     "type": "photos",
     "verified": false,
     "version": "1.0.0",
-    "author": "ohlookitsderpy",
+    "author": "davidjcralph",
     "photos": [
         {
             "photographer": "derpy",
@@ -45,7 +45,7 @@ The ``location`` and ``photographer`` keys are not currently used but will be in
     "type": "quotes",
     "verified": false,
     "version": "1.0.0",
-    "author": "ohlookitsderpy",
+    "author": "davidjcralph",
     "quotes": [
         {
             "author": "derpy",
@@ -70,7 +70,7 @@ In the future, there may be a ``language`` option, so if you want you can includ
     "type": "settings",
     "verified": false,
     "version": "1.0.0",
-    "author": "ohlookitsderpy",
+    "author": "davidjcralph",
     "settings": [
         {
             "key": "copyButton",

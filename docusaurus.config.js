@@ -15,7 +15,7 @@ module.exports = {
       title: 'Mue',
       logo: {
         alt: 'Mue Logo',
-        src: 'https://raw.githubusercontent.com/mue/branding/master/logo/logo_round.png',
+        src: 'https://raw.githubusercontent.com/mue/branding/main/logo/logo_round.png',
       },
       items: [
         {
@@ -43,13 +43,25 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Learn More',
-              to: 'docs/',
+              label: 'Development',
+              to: 'development',
             },
+            {
+              label: 'API',
+              to: 'api/introduction'
+            },
+            {
+              label: 'Marketplace',
+              to: 'marketplace/introduction'
+            },
+            {
+              label: 'Blog',
+              to: 'blog/introduction'
+            }
           ],
         },
         {
-          title: 'Community',
+          title: 'Social',
           items: [
             {
               label: 'ProductHunt',
@@ -63,15 +75,31 @@ module.exports = {
               label: 'Twitter',
               href: 'https://twitter.com/getmue',
             },
+            {
+              label: 'Facebook',
+              href: 'https://facebook.com/muetab'
+            }
           ],
         },
         {
           title: 'More',
           items: [
             {
-              label: 'GitHub',
+              label: 'Source Code',
               href: 'https://github.com/mue/docs',
             },
+            {
+              label: 'Roadmap',
+              href: 'https://github.com/mue/mue/projects/2'
+            },
+            {
+              label: 'Support Us',
+              href: 'https://github.com/sponsors/davidjcralph'
+            },
+            {
+              label: 'Issues',
+              href: 'https://github.com/mue/docs/issues'
+            }
           ],
         },
       ],
