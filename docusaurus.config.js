@@ -122,4 +122,14 @@ module.exports = {
       },
     ],
   ],
+  scripts: [
+    {
+      src:
+        'https://umami.muetab.com/umami.js',
+      async: true,
+      defer: true,
+      'data-website-id': 
+        '1d32454c-49a9-4dab-afb9-1f1dd36da4d9'
+    },
+  ],
 };

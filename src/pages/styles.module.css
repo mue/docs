@@ -43,17 +43,43 @@
 }
 
 @-webkit-keyframes background {
-  0%{background-position:4% 0%}
-  50%{background-position:97% 100%}
-  100%{background-position:4% 0%}
+  0% {
+    background-position: 4% 0%
+  }
+
+  50% {
+    background-position: 97% 100%
+  }
+
+  100% {
+    background-position: 4% 0%
+  }
 }
+
 @-moz-keyframes background {
-  0%{background-position:4% 0%}
-  50%{background-position:97% 100%}
-  100%{background-position:4% 0%}
+  0% {
+    background-position: 4% 0%
+  }
+
+  50% {
+    background-position: 97% 100%
+  }
+
+  100% {
+    background-position: 4% 0%
+  }
 }
+
 @keyframes background {
-  0%{background-position:4% 0%}
-  50%{background-position:97% 100%}
-  100%{background-position:4% 0%}
+  0% {
+    background-position: 4% 0%
+  }
+
+  50% {
+    background-position: 97% 100%
+  }
+
+  100% {
+    background-position: 4% 0%
+  }
 }

@@ -1,76 +1,25 @@
 import React from 'react';
-import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
-const features = [
-  {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
-
-function Feature({imageUrl, title, description}) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={clsx('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
-  );
-}
-
 export default function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
+
   return (
     <Layout
       title={'Home'}
-      description="The Mue documentation website">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">Documentation<br/>For Mue.</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+      description='The Mue documentation website'>
+      <header className={'hero hero--primary ' + styles.heroBanner}>
+        <div className='container'>
+          <h1 className='hero__title'>Documentation<br/>For Mue.</h1>
+          <p className='hero__subtitle'>{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
+              className={'button button--outline button--secondary button--lg ' + styles.getStarted}
               to={useBaseUrl('introduction')}>
                 Learn More
             </Link>
@@ -78,37 +27,37 @@ export default function Home() {
         </div>
       </header>
       <main>
-        <div class='title'>
+        <div className='title'>
           <h1>Topics</h1>
-         </div> 
-          <section className={styles.features}>
-          <div class='cards'>
+        </div> 
+        <section className={styles.features}>
+          <div className='cards'>
             <Link to={useBaseUrl('introduction')}>
-              <div class='card'>
+              <div className='card'>
                 <h2>Getting Started</h2>
                 <p>Introduction to Mue's documentation.</p>
               </div>
             </Link>
             <Link to={useBaseUrl('api/introduction')}>
-              <div class='card'>
+              <div className='card'>
                 <h2>API</h2>
                 <p>Documentation regarding Mue's API for quotes and images.</p>
               </div>
             </Link>
             <Link to={useBaseUrl('marketplace/introduction')}>
-              <div class='card'>
+              <div className='card'>
                 <h2>Marketplace</h2>
                 <p>Documentation regarding user-created content on marketplace.</p>
               </div>
             </Link>
             <Link to={useBaseUrl('blog/introduction')}>
-              <div class='card'>
+              <div className='card'>
                 <h2>Blog</h2>
                 <p>Documentation regarding Mue's static "Hugo" blog.</p>
               </div>
             </Link>
            </div>
-          </section>
+        </section>
       </main>
     </Layout>
   );
