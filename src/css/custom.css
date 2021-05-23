@@ -6,6 +6,15 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  font-weight: 1000;
+}
+
 :root {
   --ifm-color-primary: #ffb032;
   --ifm-color-primary-dark: #ffb032;
@@ -26,4 +35,58 @@
 
 .footer--dark, .footer {
   --ifm-footer-background-color: #2f3542;
+}
+
+a.navbar__item {
+  font-weight: 600 !important;
+}
+
+ul.menu__list {
+  font-weight: 1000;
+}
+
+.cards {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cards a {
+  text-decoration: none !important;
+  color: var(--ifm-hero-text-color) !important;
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  text-align: left;
+  border: 2px solid #95a5a6;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.card:hover {
+  border: 2px solid #ffb032;
+}
+
+h1 {
+  display: block;
+}
+
+.title {
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+.title h1 {
+  font-weight: 3000;
+  font-size: 60px;
+}
+
+section.features_src-pages {
+  padding-top: 0;
 }

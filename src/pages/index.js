@@ -63,7 +63,7 @@ export default function Home() {
       description="The Mue documentation website">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <h1 className="hero__title">Documentation<br/>For Mue.</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
@@ -72,23 +72,43 @@ export default function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('introduction')}>
-              Read More
+                Learn More
             </Link>
           </div>
         </div>
       </header>
       <main>
-        {features && features.length > 0 && (
+        <div class='title'>
+          <h1>Topics</h1>
+         </div> 
           <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
+          <div class='cards'>
+            <Link to={useBaseUrl('introduction')}>
+              <div class='card'>
+                <h2>Getting Started</h2>
+                <p>Introduction to Mue's documentation.</p>
               </div>
-            </div>
+            </Link>
+            <Link to={useBaseUrl('api/introduction')}>
+              <div class='card'>
+                <h2>API</h2>
+                <p>Documentation regarding Mue's API for quotes and images.</p>
+              </div>
+            </Link>
+            <Link to={useBaseUrl('marketplace/introduction')}>
+              <div class='card'>
+                <h2>Marketplace</h2>
+                <p>Documentation regarding user-created content on marketplace.</p>
+              </div>
+            </Link>
+            <Link to={useBaseUrl('blog/introduction')}>
+              <div class='card'>
+                <h2>Blog</h2>
+                <p>Documentation regarding Mue's static "Hugo" blog.</p>
+              </div>
+            </Link>
+           </div>
           </section>
-        )}
       </main>
     </Layout>
   );

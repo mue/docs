@@ -10,6 +10,13 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(136deg, #ffb032, #dd3b67);
+  background-size: 400% 400%;
+
+  -webkit-animation: background 12s ease infinite;
+  -moz-animation: background 12s ease infinite;
+  animation: background 12s ease infinite;
+  height: 95vh;
 }
 
 @media screen and (max-width: 966px) {
@@ -27,11 +34,26 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
   width: 100%;
 }
 
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+@-webkit-keyframes background {
+  0%{background-position:4% 0%}
+  50%{background-position:97% 100%}
+  100%{background-position:4% 0%}
+}
+@-moz-keyframes background {
+  0%{background-position:4% 0%}
+  50%{background-position:97% 100%}
+  100%{background-position:4% 0%}
+}
+@keyframes background {
+  0%{background-position:4% 0%}
+  50%{background-position:97% 100%}
+  100%{background-position:4% 0%}
 }
