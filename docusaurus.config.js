@@ -105,6 +105,11 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Mue Tab`,
     },
+    algolia: {
+      apiKey: '705e99b3d44f4abdbb186a2910250e67',
+      indexName: 'muetab',
+      contextualSearch: true
+    },
   },
   presets: [
     [
