@@ -16,7 +16,7 @@ automatically deploy new changes to our [demo](https://demo.muetab.com) which is
 * A suitable browser (Only modern versions of Firefox and Chromium-based browsers are supported)
 
 #### Starting
-1. Clone the repository using ``git clone https://github.com/mue/mue.git``
+1. Clone the repository using ``git clone https://github.com/mue/mue.git --depth 1``
 2. Run ``yarn`` or ``npm i`` to install all needed dependencies
 3. Run ``yarn start`` or ``npm start`` to start the development server
 4. Code your heart out! (See the sections below for how to build the extension)
