@@ -8,7 +8,16 @@ from the photographer.
 ## Information
 Base URL: ``https://api.muetab.com``
 
-You may only send 100 requests a minute before being ratelimited for the same time.
+Ratelimits are per route:
+```
+/ - 30 requests per minute
+/images/random - 100 requests per minute
+/images/photographers - 50 requests per minute
+/images/categories - 50 requests per minute
+/quotes/random - 100 requests per minute
+/quotes/languages - 50 requestrs per minute
+
+```
 
 ## Wrappers
 ### Official
