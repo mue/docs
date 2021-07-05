@@ -4,8 +4,18 @@ title: Installation
 
 Installing Mue is a simple and straightforward process.
 
-## Google Chrome
+## Chrome
 To install on Google Chrome, first visit the [Chrome Web Store](https://chrome.google.com/webstore/detail/mue/bngmbednanpcfochchhgbkookpiaiaid) page and click on "Add to Chrome". You will then be 
+prompted with a permissions dialog asking whether or not you want to add the extension, simply click "Add extension" and Mue will be downloaded and installed. You can then open a new tab to start using Mue.
+If prompted with a question asking whether or not you want to accept the new tab changes, click yes.
+
+## Edge (Chromium)
+To install on Microsoft Edge, first visit the [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/mue/aepnglgjfokepefimhbnibfjekidhmja) page and click on "Add to Edge". You will then be 
+prompted with a permissions dialog asking whether or not you want to add the extension, simply click "Add extension" and Mue will be downloaded and installed. You can then open a new tab to start using Mue.
+If prompted with a question asking whether or not you want to accept the new tab changes, click yes.
+
+## Naver Whale
+To install on Whale, first visit the [Whale Store](https://store.whale.naver.com/detail/ecllekeilcmicbfkkiknfdddbogibbnc) page and click on "Add to Whale". You will then be 
 prompted with a permissions dialog asking whether or not you want to add the extension, simply click "Add extension" and Mue will be downloaded and installed. You can then open a new tab to start using Mue.
 If prompted with a question asking whether or not you want to accept the new tab changes, click yes.
 

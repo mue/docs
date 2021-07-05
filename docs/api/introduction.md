@@ -15,7 +15,7 @@ Ratelimits are per route:
 /images/photographers - 50 requests per minute
 /images/categories - 50 requests per minute
 /quotes/random - 100 requests per minute
-/quotes/languages - 50 requestrs per minute
+/quotes/languages - 50 requests per minute
 
 ```
 

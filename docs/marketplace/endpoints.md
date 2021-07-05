@@ -2,7 +2,7 @@
 title: API Endpoints
 ---
 
-Unlike the rest of the API endpoints, the Marketplace runs on its own instance at https://marketplace.muetab.com with source code available at https://github.com/mue/marketplace.
+Unlike the rest of the API endpoints, the Marketplace runs on its own instance at https://marketplace.muetab.com with source code available at https://github.com/mue/marketplace. This is because the repository also contains the content for the marketplace as well as the source code.
 
 #### /
 ```https://marketplace.muetab.com```
@@ -11,14 +11,14 @@ Returns hello world message.
 #### Response
 ```json
 {
-    "message":"Hello World"
+    "message": "Hello World"
 }
 ```
 
 ### Get All Items
 ```https://marketplace.muetab.com/all```
 
-This endpoint returns all marketplace items with description etc removed. The information is used by the marketplace homepage so there is only data it requires in this endpoint.
+This endpoint returns all marketplace items with description etc removed. The information is used by the marketplace homepage in versions prior to 5.2 so there is only data it requires in this endpoint. The endpoint may be removed in the future.
 #### Response
 ```json
 {
@@ -54,25 +54,47 @@ This endpoint returns all marketplace items with description etc removed. The in
 }
 ```
 
-### Get Featured
-```https://marketplace.muetab.com/featured```
+### Get Category Items
+```https://marketplace.muetab.com/items/:category```
 
-This endpoint returns the featured information for the section on the marketplace screen.
+This endpoint returns all marketplace items in a category with description etc removed. The information is used by the marketplace homepage in 5.2+ so there is only data it requires in this endpoint.
+#### Request
+Parameter | Type | Info
+--- | --- | ---
+category | string | Category to search in
 #### Response
 ```json
 {
-    "data": {
-        "title": "FEATURE CHANGELOG",
-        "name": "MUE MARKETPLACE",
-        "buttonText": "READ BLOG",
-        "buttonLink": "",
-        "colour": "#ff7f50"
-    }
+    "data": [
+        {
+            "name": "crunchyroll_hime",
+            "display_name": "Crunchyroll Hime",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png",
+            "author": "davidjcralph"
+        },
+        {
+            "name": "halloween",
+            "display_name": "Halloween",
+            "icon_url": "https://publicdomainvectors.org/photos/hattedpumpkin-tkuczamix.png",
+            "author": "davidjcralph"
+        },
+        {
+            "name": "low_poly",
+            "display_name": "Low Poly Pack",
+            "icon_url": "https://i.ibb.co/4J3zrnd/polypacklogo.png",
+            "author": "Jack Shanks"
+        },
+        {
+            "name": "winter",
+            "display_name": "Winter",
+            "icon_url": "https://i.imgur.com/wDMOsaP.png",
+            "author": "eartharoid"
+    ]
 }
 ```
 
-#### Get Item
-```https://marketplace.muetab.com/item```
+### Get Item
+```https://marketplace.muetab.com/item/:category/:name```
 
 This endpoint allows you to get an image. If ID or category aren't specified it will return a random image from all categories.
 #### Request
@@ -94,6 +116,23 @@ category | string | Category to search in
         "version": "1.0.0",
         "author": "davidjcralph",
         "photos": [{}]
+    }
+}
+```
+
+### Get Featured
+```https://marketplace.muetab.com/featured```
+
+This endpoint returns the featured information for the section on the marketplace screen.
+#### Response
+```json
+{
+    "data": {
+        "title": "FEATURE CHANGELOG",
+        "name": "MUE MARKETPLACE",
+        "buttonText": "READ BLOG",
+        "buttonLink": "",
+        "colour": "#ff7f50"
     }
 }
 ```

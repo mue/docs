@@ -5,7 +5,6 @@ module.exports = {
       label: 'Welcome',
       items: [
         'introduction',
-        'changelog',
         'faq'
       ]
     },

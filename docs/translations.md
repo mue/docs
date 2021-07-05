@@ -7,11 +7,11 @@ This page covers the instructions for translating the Mue tab extension.
 Please do not use Google Translate where possible. To avoid duplication of work, it is recommended you join our Discord server first (see footer) as some of our translators are in there.
 
 ## Requirements
-* All of the [development](/development) requirements
+* All of the [development](/development#mue-tab) requirements
 * A free [GitHub](https://github.com) account
 
 ## Instructions
-Make sure you have followed all of the [development](/development) instructions first to get a working local instance of Mue on your machine. Instead of cloning ``mue/mue``, you will need to fork the repository to ``<yourgithubusername>/mue``.
+Make sure you have followed all of the [development](/development#mue-tab) instructions first to get a working local instance of Mue on your machine. Instead of cloning ``mue/mue``, you will need to fork the repository to ``<yourgithubusername>/mue``.
 
 1. Create a file for your translation in ``src/translations``, for example ``en_GB.json``
 2. Copy all of the contents of ``en_GB.json`` to your new file

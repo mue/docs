@@ -26,27 +26,6 @@ category (optional) | string | Returns random image from specific category
 }
 ```
 
-#### Get Image by ID
-```https://api.muetab.com/images/:id```
-
-This endpoint allows you to get an image by ID.
-#### Request
-Parameter | Type | Info
---- | --- | ---
-id | number | Returns information for specific image ID
-#### Response
-```json 
-{
-    "id": 186,
-    "category": "Outdoors",
-    "file": "https://res.cloudinary.com/mue/image/upload/photos/old/78ff331a7aa4bda3.jpg",
-    "photographer": "David Ralph",
-    "location": "Cotswold Wildlife Park", 
-    "camera": "Samsung Galaxy S8", 
-    "resolution": null
-}
-```
-
 ### Get Categories
 ```https://api.muetab.com/images/categories```
 
@@ -64,7 +43,6 @@ This endpoint returns all photographers in an array.
 ```json
 ["photographer1", "photographer2"]
 ```
-
 
 ## Quotes
 #### Get Random Quote
@@ -85,24 +63,6 @@ language (optional) | string | Get a random quote in a specific language
 }
 ```
 
-#### Get Quote by ID
-```https://api.muetab.com/quotes/:id```
-
-This endpoint allows you to get a quote random. If language isn't specified it will return a random quote in any language.
-#### Request
-Parameter | Type | Info
---- | --- | ---
-id | number | Returns information for specific quote ID
-#### Response
-```json
-{
-    "id": 4,
-    "author": "E.E Cummings",
-    "quote": "It takes courage to grow up and become who you really are.",
-    "language": "English"
-}
-```
-
 ### Get Quote Languages
 ```https://api.muetab.com/quotes/languages```
 
@@ -111,7 +71,6 @@ This endpoint returns all quote languages in an array.
 ```json
 ["English", "French"]
 ```
-
 
 ## Other
 #### /

@@ -2,7 +2,6 @@
 title: Introduction
 ---
 
-Mue Marketplace is a feature of Mue that allows you to add user-created content to personalise your Mue even further. This ranges from photo and quote packs (which will show a random photo/quote on refresh)
-to themes and even custom plugins (in the future).
+Mue Marketplace is a feature of Mue that allows you to add user-created content to personalise your Mue even further. The currently supported content types are random photo and quote packs and preset settings.
 
-All of the marketplace content and the server is hosted in our repository [here](https://github.com/mue/marketplace).
+All of the marketplace content and server source code can be found in our repository [here](https://github.com/mue/marketplace).
