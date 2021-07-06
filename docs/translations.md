@@ -19,7 +19,7 @@ Make sure you have followed all of the [development](/development#mue-tab) instr
 4. Add your translation to ``src/modules/languages.json`` at the end of the JSON array
 5. Test your translation by going to the Mue settings modal (make sure the dev server is running), then to languages and selecting your language
 6. Go to the root directory of your Mue instance and run ``git add *``
-7. Next, run ``git commit -m "Add <language here> translation"``
+7. Next, run ``git commit -m "feat(translations): Add <language here> translation"``
 8. Finally, run ``git push`` and open a pull request on the GitHub website
 
 If you have any issues, please feel free to contact us

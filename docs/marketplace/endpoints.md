@@ -2,7 +2,7 @@
 title: API Endpoints
 ---
 
-Unlike the rest of the API endpoints, the Marketplace runs on its own instance at https://marketplace.muetab.com with source code available at https://github.com/mue/marketplace. This is because the repository also contains the content for the marketplace as well as the source code.
+Unlike the rest of the API endpoints, the Marketplace runs on its own instance at https://marketplace.muetab.com with source code available at https://github.com/mue/marketplace. This is because the repository also contains the content for the marketplace as well as the source code. Ratelimits for all routes are 50 requests per minute.
 
 #### /
 ```https://marketplace.muetab.com```
@@ -110,12 +110,12 @@ category | string | Category to search in
         "name": "Crunchyroll Hime",
         "description": "removed\ntest https://google.com",
         "icon_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png",
-        "screenshot_url": "https://u.derpyenterprises.org/CcNj",
+        "screenshot_url": "https://i.imgur.com/IUqFr8s.png",
         "type": "photos", 
         "verified": false,
         "version": "1.0.0",
         "author": "davidjcralph",
-        "photos": [{}]
+        "photos": [{"removed": "see https://docs.muetab.com/marketplace/create#photo-packs"}]
     }
 }
 ```
@@ -131,7 +131,7 @@ This endpoint returns the featured information for the section on the marketplac
         "title": "FEATURE CHANGELOG",
         "name": "MUE MARKETPLACE",
         "buttonText": "READ BLOG",
-        "buttonLink": "",
+        "buttonLink": "https://blog.muetab.com/posts/mue-marketplace/",
         "colour": "#ff7f50"
     }
 }

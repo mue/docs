@@ -6,7 +6,7 @@ Frequently asked questions about the Mue project.
 
 Q: Can I use the branding assets?
 
-A: Sure! Checkout the page [here](https://muetab.com/branding) for downloads
+A: Sure! Checkout the page [here](https://muetab.com/branding) for downloads. Please do not modify them.
 
 Q: Do you track me?
 

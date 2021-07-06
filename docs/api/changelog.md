@@ -4,12 +4,17 @@ title: Changelog
 
 The changelog dates use the DD-MM-YYY format.
 
+### 1.5.1 - 06/07/21
+#### Removed
+* API no longer returns IDs for images and quotes
+
 ### 1.5.0 - 20/05/21
 #### Changed
 * URLs for all endpoints have been changed
 #### Removed
 * Unsplash documentation as it's private
 * Information about marketplace themes as they are no longer planned
+* /getUpdate endpoint removed, use blog API instead
 
 ### 1.4.0 - 14/01/21
 #### Added
@@ -32,7 +37,7 @@ The changelog dates use the DD-MM-YYY format.
 
 ### 1.2.0 - 10/12/19
 #### Added
-* Status codes on invalid id and invalid category (400) as well as 404
+* Status codes on invalid ID and invalid category (400) as well as 404
 * Make [source code](https://github.com/mue/api) public
 
 #### Changed
@@ -52,6 +57,6 @@ The changelog dates use the DD-MM-YYY format.
 * Support for getting images and quotes via specific ID
 
 ### 1.0.0 - 26/06/2019
-Please note the date for this update may not be exact.
+Please note the date for this update may not be exact
 #### Added
 * Initial Release

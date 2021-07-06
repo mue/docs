@@ -16,13 +16,12 @@ category (optional) | string | Returns random image from specific category
 #### Response
 ```json 
 {
-    "id": 186,
     "category": "Outdoors",
     "file": "https://res.cloudinary.com/mue/image/upload/photos/old/78ff331a7aa4bda3.jpg",
     "photographer": "David Ralph",
     "location": "Cotswold Wildlife Park", 
     "camera": "Samsung Galaxy S8", 
-    "resolution": null
+    "resolution": "2221x1080"
 }
 ```
 
@@ -56,7 +55,6 @@ language (optional) | string | Get a random quote in a specific language
 #### Response
 ```json
 {
-    "id": 4,
     "author": "E.E Cummings",
     "quote": "It takes courage to grow up and become who you really are.",
     "language": "English"
