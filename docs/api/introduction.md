@@ -10,13 +10,16 @@ Base URL: ``https://api.muetab.com``
 
 Ratelimits are per route:
 ```
+# Public
 / - 30 requests per minute
 /images/random - 100 requests per minute
 /images/photographers - 50 requests per minute
 /images/categories - 50 requests per minute
 /quotes/random - 100 requests per minute
 /quotes/languages - 50 requests per minute
-
+# Admin
+/images/add - 10 requests per minute
+/images/delete - 10 requests per minute
 ```
 
 ## Wrappers

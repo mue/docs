@@ -89,6 +89,7 @@ category | string | Category to search in
             "display_name": "Winter",
             "icon_url": "https://i.imgur.com/wDMOsaP.png",
             "author": "eartharoid"
+        }
     ]
 }
 ```

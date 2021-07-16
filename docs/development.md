@@ -50,11 +50,12 @@ The Mue API is built with JavaScript, Vercel and Supabase. It is available in pr
 1. Clone the repository using ``git clone https://github.com/mue/api.git``
 2. Run ``yarn`` or ``npm i`` to install all needed dependencies
 3. Install Vercel CLI with ``npm i -g vercel`` or ``yarn add global vercel``
-4. Sign in and setup Vercel CLI with ``vercel dev``. Use this command to start the server also
-4. Code your heart out!
+4. Set the environment variables for "SUPABASE_URL", "SUPABASE_TOKEN" (these can be found in the API section of your Supabase database settings) and "ADMIN_TOKEN".
+5. Sign in and setup Vercel CLI with ``vercel dev``. Use this command to start the server also
+6. Code your heart out!
 
 #### Database Setup
-Your Supabase database will need two tables - images and quotes. The images table has columns for id (integer), category, file, photographer, location and camera (string). The quotes table has columns for id (integer), author, quote and language (string). In the future we may provide a script to setup the database.
+Your Supabase database will need two tables - images and quotes. The images table has columns for id (uuid), category, file, photographer, location and camera (string). The quotes table has columns for id (uuid), author, quote and language (string). In the future we may provide a script to setup the database.
 
 ## Marketplace
 #### Requirements
