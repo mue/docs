@@ -4,6 +4,17 @@ title: Changelog
 
 The changelog dates use the DD-MM-YYY format.
 
+### 1.6.0 - 16/08/21
+#### Added
+* Admin API for adding and removing quotes
+* Better ratelimit control
+
+#### Changed
+* Optimisation
+
+#### Removed
+* Resolution from image response
+
 ### 1.5.1 - 06/07/21
 #### Removed
 * API no longer returns IDs for images and quotes
@@ -15,6 +26,7 @@ The changelog dates use the DD-MM-YYY format.
 * Unsplash documentation as it's private
 * Information about marketplace themes as they are no longer planned
 * /getUpdate endpoint removed, use blog API instead
+* You can no longer get images or quotes by ID
 
 ### 1.4.0 - 14/01/21
 #### Added
