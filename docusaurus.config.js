@@ -94,7 +94,7 @@ module.exports = {
             },
             {
               label: 'Support Us',
-              href: 'https://github.com/sponsors/davidjcralph'
+              href: 'https://github.com/sponsors/davidcralph'
             },
             {
               label: 'Issues',
