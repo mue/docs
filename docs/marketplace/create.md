@@ -2,6 +2,8 @@
 title: Creating Add-ons
 ---
 
+NOTICE: As of 5.3, you can now create addons directly in Mue via Settings -> My Add-ons -> Create. It is recommended to use this method instead of manual creation.
+
 All add-ons are created in the JSON format.
 
 **Photo Packs**:
@@ -14,7 +16,7 @@ All add-ons are created in the JSON format.
     "type": "photos",
     "verified": false,
     "version": "1.0.0",
-    "author": "davidcralph",
+    "author": "David",
     "photos": [
         {
             "photographer": "David Ralph",
@@ -45,7 +47,7 @@ The ``location`` and ``photographer`` keys are not currently used but will be in
     "type": "quotes",
     "verified": false,
     "version": "1.0.0",
-    "author": "davidcralph",
+    "author": "David",
     "quotes": [
         {
             "author": "David Ralph",
@@ -70,7 +72,7 @@ In the future, there may be a ``language`` option, so if you want you can includ
     "type": "settings",
     "verified": false,
     "version": "1.0.0",
-    "author": "davidcralph",
+    "author": "David",
     "settings": [
         {
             "key": "copyButton",

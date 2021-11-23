@@ -56,9 +56,9 @@ language (optional) | string | Get a random quote in a specific language
 #### Response
 ```json
 {
-    "author": "E.E Cummings",
-    "quote": "It takes courage to grow up and become who you really are.",
-    "language": "English"
+  "author": "E.E Cummings",
+  "quote": "It takes courage to grow up and become who you really are.",
+  "language": "English"
 }
 ```
 
@@ -79,8 +79,8 @@ Returns hello world message.
 ##### Response
 ```json
 {
-    "version": "1.4.0",
-    "message": "Hello World! API docs: https://docs.muetab.com"
+  "version": "1.4.0",
+  "message": "Hello World! API docs: https://docs.muetab.com"
 }
 ```
 
@@ -102,8 +102,8 @@ camera | string | The name of the camera used, such as "Canon 1300D" or "Samsung
 #### Response
 ```json
 {
-    "id": "3dd1ecaa-78bc-4063-b996-0fc033dfbccd",
-    "message": "Success"
+  "id": "3dd1ecaa-78bc-4063-b996-0fc033dfbccd",
+  "message": "Success"
 }
 ```
 
@@ -118,6 +118,6 @@ id | string | The uuid returned by the add image route. You can manually find th
 #### Response
 ```json
 {
-    "message": "Success"
+  "message": "Success"
 }
 ```

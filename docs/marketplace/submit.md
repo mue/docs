@@ -13,6 +13,6 @@ After submitting a pull request your add-on will be reviewed within 1-2 weeks. I
 * No add-ons that harm the user experience (e.g bright flashing lights)
 * No NSFW or unethical content
 * No spam or "meme" entries
-* Images must be hosted on one of the following sites: Imgur, ImgBB, Postimages, Shopify, Discord CDN
+* Images must be hosted on one of the following sites: Imgur, ImgBB, Postimages, Shopify, Discord CDN (please contact us if you are having trouble hosting your images)
 
 Repeatedly submitting add-ons that violate the guidelines will result in your GitHub account being blocked from our repositories.

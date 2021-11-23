@@ -4,6 +4,14 @@ title: Changelog
 
 The changelog dates use the DD-MM-YYY format.
 
+### 1.6.1 - 23/11/21
+#### Added
+* Full umami implementation (apart from location and resolution, this is not planned)
+* Log unauthorized errors to umami
+
+### Changed
+* Code modifications
+
 ### 1.6.0 - 16/08/21
 #### Added
 * Admin API for adding and removing quotes

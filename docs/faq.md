@@ -10,8 +10,7 @@ A: Sure! Checkout the page [here](https://muetab.com/branding) for downloads. Pl
 
 Q: Do you track me?
 
-A: We don't track you. The entire Mue source code for Mue and all components is available on our [GitHub](https://github.com/mue). If you're not convinced, you can turn on "Offline Mode" in the Mue 
-settings and the extension will no longer make requests to our domains (and external ones).
+A: Please read our [privacy policy](https://muetab.com/privacy).
 
 Q: How do I uninstall Mue?
 

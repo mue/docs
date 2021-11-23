@@ -22,35 +22,16 @@ This endpoint returns all marketplace items with description etc removed. The in
 #### Response
 ```json
 {
-    "data": {
-        "settings": [],
-        "photo_packs": [
-        {
-            "name": "crunchyroll_hime",
-            "display_name": "Crunchyroll Hime",
-            "icon_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png",
-            "author": "davidcralph"
-        },
-        {
-            "name": "halloween",
-            "display_name": "Halloween",
-            "icon_url": "https://publicdomainvectors.org/photos/hattedpumpkin-tkuczamix.png",
-            "author": "davidcralph"
-        },
-        {
-            "name": "low_poly",
-            "display_name": "Low Poly Pack",
-            "icon_url": "https://i.ibb.co/4J3zrnd/polypacklogo.png",
-            "author": "Jack Shanks"
-        },
-        {
-            "name": "winter",
-            "display_name": "Winter",
-            "icon_url": "https://i.imgur.com/wDMOsaP.png",
-            "author": "eartharoid"
-        }],
-        "quote_packs": []
-    }
+  "data": {
+    "settings": [],
+    "photo_packs": [{
+      "name": "crunchyroll_hime",
+      "display_name": "Crunchyroll Hime",
+      "icon_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png",
+      "author": "David"
+    }],
+    "quote_packs": []
+  }
 }
 ```
 
@@ -65,32 +46,12 @@ category | string | Category to search in
 #### Response
 ```json
 {
-    "data": [
-        {
-            "name": "crunchyroll_hime",
-            "display_name": "Crunchyroll Hime",
-            "icon_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png",
-            "author": "davidcralph"
-        },
-        {
-            "name": "halloween",
-            "display_name": "Halloween",
-            "icon_url": "https://publicdomainvectors.org/photos/hattedpumpkin-tkuczamix.png",
-            "author": "davidcralph"
-        },
-        {
-            "name": "low_poly",
-            "display_name": "Low Poly Pack",
-            "icon_url": "https://i.ibb.co/4J3zrnd/polypacklogo.png",
-            "author": "Jack Shanks"
-        },
-        {
-            "name": "winter",
-            "display_name": "Winter",
-            "icon_url": "https://i.imgur.com/wDMOsaP.png",
-            "author": "eartharoid"
-        }
-    ]
+  "data": [{
+    "name": "crunchyroll_hime",
+    "display_name": "Crunchyroll Hime",
+    "icon_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png",
+    "author": "David"
+  }]
 }
 ```
 
@@ -106,18 +67,17 @@ category | string | Category to search in
 #### Response
 ```json
 {
-    "updated": "12th Dec 2020",
-    "data": {
-        "name": "Crunchyroll Hime",
-        "description": "removed\ntest https://google.com",
-        "icon_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png",
-        "screenshot_url": "https://i.imgur.com/IUqFr8s.png",
-        "type": "photos", 
-        "verified": false,
-        "version": "1.0.0",
-        "author": "davidcralph",
-        "photos": [{"removed": "see https://docs.muetab.com/marketplace/create#photo-packs"}]
-    }
+  "data": {
+    "name": "Crunchyroll Hime",
+    "description": "removed\ntest https://google.com",
+    "icon_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png",
+    "screenshot_url": "https://i.imgur.com/IUqFr8s.png",
+    "type": "photos", 
+    "verified": false,
+    "version": "1.0.0",
+    "author": "David",
+    "photos": [{"removed": "see https://docs.muetab.com/marketplace/create#photo-packs"}]
+  }
 }
 ```
 
@@ -128,12 +88,12 @@ This endpoint returns the featured information for the section on the marketplac
 #### Response
 ```json
 {
-    "data": {
-        "title": "FEATURE CHANGELOG",
-        "name": "MUE MARKETPLACE",
-        "buttonText": "READ BLOG",
-        "buttonLink": "https://blog.muetab.com/posts/mue-marketplace/",
-        "colour": "#ff7f50"
-    }
+  "data": {
+    "title": "FEATURE CHANGELOG",
+    "name": "MUE MARKETPLACE",
+    "buttonText": "READ BLOG",
+    "buttonLink": "https://blog.muetab.com/posts/mue-marketplace/",
+    "colour": "#ff7f50"
+  }
 }
 ```
