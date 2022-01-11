@@ -15,7 +15,7 @@ module.exports = {
       title: 'Mue',
       logo: {
         alt: 'Mue Logo',
-        src: 'https://raw.githubusercontent.com/mue/branding/main/logo/logo_round.png',
+        src: 'https://res.cloudinary.com/mue/website/logo_round.webp',
       },
       items: [
         {
