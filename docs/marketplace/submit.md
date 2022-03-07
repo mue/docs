@@ -10,7 +10,7 @@ Submitting add-ons is as easy as:
 After submitting a pull request your add-on will be reviewed within 1-2 weeks. If we need you to change anything we will use the request changes feature on GitHub to do so. If you don't fix the issues within a week, or they can't be fixed we will close the pull request.
 
 ## Submission Guidelines:
-* No add-ons that harm the user experience (e.g bright flashing lights)
+* No add-ons that harm the user experience (e.g. bright flashing lights)
 * No NSFW or unethical content
 * No spam or "meme" entries
 * Images must be hosted on one of the following sites: Imgur, ImgBB, Postimages, Shopify, Discord CDN (please contact us if you are having trouble hosting your images)

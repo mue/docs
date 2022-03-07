@@ -30,14 +30,9 @@
   width: 100%;
 }
 
-.featureImage {
-  height: 200px;
-  width: 200px;
-}
-
 @-webkit-keyframes background {
   0% {
-    background-position: 4% 0%
+    background-position: 4% 0
   }
 
   50% {
@@ -45,13 +40,13 @@
   }
 
   100% {
-    background-position: 4% 0%
+    background-position: 4% 0
   }
 }
 
 @-moz-keyframes background {
   0% {
-    background-position: 4% 0%
+    background-position: 4% 0
   }
 
   50% {
@@ -59,13 +54,13 @@
   }
 
   100% {
-    background-position: 4% 0%
+    background-position: 4% 0
   }
 }
 
 @keyframes background {
   0% {
-    background-position: 4% 0%
+    background-position: 4% 0
   }
 
   50% {
@@ -73,6 +68,6 @@
   }
 
   100% {
-    background-position: 4% 0%
+    background-position: 4% 0
   }
 }

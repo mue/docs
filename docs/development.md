@@ -27,7 +27,7 @@ automatically deploy new changes to our [demo](https://demo.muetab.com) which is
 
 #### Chromium Browser Testing
 If you need to add the built extension to your browser, follow these steps:
-1. Visit the extensions page in your browser (this is normally accessible through ``<browsername>://extensions``, e.g ``edge://extensions``)
+1. Visit the "extensions" page in your browser (this is normally accessible through ``<browsername>://extensions``, e.g ``edge://extensions``)
 2. Check the "Developer Mode" toggle
 3. Click "Load Unpacked" and find your manifest.json in the build directory
 4. Click ok and then open a new tab. You may need to disable the production Mue extension for your development one to appear.
@@ -56,7 +56,7 @@ The Mue API is built with JavaScript, Vercel and Supabase. It is available in pr
 6. Code your heart out!
 
 #### Database Setup
-Your Supabase database will need two tables - images and quotes. The images table has columns for id (uuid), category, file, photographer, location and camera (string). The quotes table has columns for id (uuid), author, quote and language (string). In the future we may provide a script to setup the database.
+Your Supabase database will need two tables - images and quotes. The images table has columns for id (uuid), category, file, photographer, location and camera (string). The quotes table has columns for id (uuid), author, quote and language (string). In the future we may provide a script to set up the database.
 
 ## Marketplace
 The Mue Marketplace is built with JavaScript and Vercel. It is available in production at https://marketplace.muetab.com
@@ -78,7 +78,7 @@ The Mue Marketplace is built with JavaScript and Vercel. It is available in prod
 To build the marketplace content JSON (all.json), run ``cd scripts && node updatejson.js``. This will update the content on the server, and you should run this when developing or pushing your changes.
 
 ## Proxy
-This is the Cloudflare Worker used for proxying requests to Unsplash, Pexels, OpenWeatherMap and Mapbox. Unlike the other APIs, this is not available publicly. Please refrain from using it outside of Mue
+This is the Cloudflare Worker used for proxying requests to Unsplash, Pexels, OpenWeatherMap and Mapbox. Unlike the other APIs, this is not available publicly. Please refrain from using it outside Mue.
 ### Installation
 #### Requirements
 * A free [Cloudflare](https://www.cloudflare.com) account

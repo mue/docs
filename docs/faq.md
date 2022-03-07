@@ -14,4 +14,4 @@ A: Please read our [privacy policy](https://muetab.com/privacy).
 
 Q: How do I uninstall Mue?
 
-A: Simply right click the Mue icon on your browser and click uninstall. You can also visit the store page where you got Mue from and click the remove button.
+A: Simply right-click the Mue icon on your browser and click uninstall. You can also visit the store page where you got Mue from and click the remove button.

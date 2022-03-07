@@ -65,8 +65,7 @@ h1 {
 }
 
 .title {
-  padding: 30px;
-  padding-bottom: 0;
+  padding: 30px 30px 0;
 }
 
 .title h1 {
@@ -76,4 +75,15 @@ h1 {
 
 section.features_src-pages {
   padding-top: 0;
+}
+
+html[data-theme=dark] {
+  --docsearch-modal-background: #242526 !important;
+  --docsearch-key-gradient: #242526 !important;
+  --docsearch-key-shadow: none !important;
+  --docsearch-footer-background: #18191a !important;
+}
+
+.DocSearch {
+  font-family: var(--ifm-font-family-base) !important;
 }

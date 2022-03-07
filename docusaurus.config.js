@@ -106,7 +106,8 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Mue Tab`,
     },
     algolia: {
-      apiKey: '705e99b3d44f4abdbb186a2910250e67',
+      appId: 'BBPY4O5XZH',
+      apiKey: 'f91719958835a04e7c72f811a9861176',
       indexName: 'muetab',
       contextualSearch: true
     },

@@ -18,7 +18,7 @@ Returns hello world message.
 ### Get All Items
 ```https://marketplace.muetab.com/all```
 
-This endpoint returns all marketplace items with description etc removed. The information is used by the marketplace homepage in versions prior to 5.2 so there is only data it requires in this endpoint. The endpoint may be removed in the future.
+This endpoint returns all marketplace items with description and data removed. The information is used by the marketplace homepage in versions prior to 5.2 so there is only data it requires in this endpoint. The endpoint may be removed in the future.
 #### Response
 ```json
 {
@@ -38,7 +38,7 @@ This endpoint returns all marketplace items with description etc removed. The in
 ### Get Category Items
 ```https://marketplace.muetab.com/items/:category```
 
-This endpoint returns all marketplace items in a category with description etc removed. The information is used by the marketplace homepage in 5.2+ so there is only data it requires in this endpoint.
+This endpoint returns all marketplace items in a category with description and data removed. The information is used by the marketplace homepage in 5.2+ so there is only data it requires in this endpoint.
 #### Request
 Parameter | Type | Info
 --- | --- | ---
