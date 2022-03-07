@@ -103,7 +103,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Mue Tab`,
+      copyright: `Copyright © 2021-${new Date().getFullYear()} The Mue Authors. Built with Docusaurus.`,
     },
     algolia: {
       appId: 'BBPY4O5XZH',
