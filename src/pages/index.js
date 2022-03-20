@@ -19,7 +19,7 @@ export default function Home() {
           <p className='hero__subtitle'>{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className={'button button--outline button--secondary button--lg ' + styles.getStarted}
+              className='button button--outline button--secondary button--lg umami--click--hero-learnmore'
               to={useBaseUrl('introduction')}>
                 Learn More
             </Link>
@@ -33,25 +33,25 @@ export default function Home() {
         <section className={styles.features}>
           <div className='cards'>
             <Link to={useBaseUrl('introduction')}>
-              <div className='card'>
+              <div className='card umami--click--topics-intro'>
                 <h2>Getting Started</h2>
                 <p>Introduction to Mue's documentation.</p>
               </div>
             </Link>
             <Link to={useBaseUrl('api/introduction')}>
-              <div className='card'>
+              <div className='card umami--click--topics-api'>
                 <h2>API</h2>
                 <p>Documentation regarding Mue's API for quotes and images.</p>
               </div>
             </Link>
             <Link to={useBaseUrl('marketplace/introduction')}>
-              <div className='card'>
+              <div className='card umami--click--topics-marketplace'>
                 <h2>Marketplace</h2>
                 <p>Documentation regarding user-created content on marketplace.</p>
               </div>
             </Link>
             <Link to={useBaseUrl('blog/introduction')}>
-              <div className='card'>
+              <div className='card umami--click--topics-blog'>
                 <h2>Blog</h2>
                 <p>Documentation regarding Mue's static "Hugo" blog.</p>
               </div>

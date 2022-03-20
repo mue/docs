@@ -14,11 +14,11 @@ Email: hello@muetab.com<br/>
 Contact Form: https://muetab.com/contact
 
 ## Twitter
-If you need to contact us via Twitter, we sometimes read the messages sent to our account.
+If you need to contact us via Twitter, we read the messages sent to our account. Please note that it is not checked too often, so responses may be delayed.
 
 Twitter: [@getmue](https://twitter.com/getmue)
 
 ## Facebook
-We also sometimes check our Facebook page.
+We also check our Facebook page.  Please note that it is not checked too often, so responses may be delayed.
 
 Facebook: [muetab](https://www.facebook.com/muetab)
