@@ -93,12 +93,12 @@ This is the Cloudflare Worker used for proxying requests to Unsplash, Pexels, Op
 3. Create environment variables where mentioned in the section below
 4. Click "Save and Deploy"
 #### Environment Variables
-``MAPBOX_TOKEN`` - Mapbox API token with access to the tiles
-``OPENWEATHERMAP_TOKEN`` - OpenWeatherMap API token
-``PEXELS_COLLECTION`` - Pexels collection ID to get images from
-``PEXELS_TOKEN`` - Pexels API token
-``UMAMI_ID`` - ID of umami site
-``UMAMI_URL`` - URL of umami server
-``UNSPLASH_COLLECTION`` - Unsplash collection ID to get images from
-``UNSPLASH_REFERRAL`` - Name of referral to use, such as "mue"
-``UNSPLASH_TOKEN`` - Unsplash API token
+* ``MAPBOX_TOKEN`` - Mapbox API token with access to the tiles
+* ``OPENWEATHERMAP_TOKEN`` - OpenWeatherMap API token
+* ``PEXELS_COLLECTION`` - Pexels collection ID to get images from
+* ``PEXELS_TOKEN`` - Pexels API token
+* ``UMAMI_ID`` - ID of umami site
+* ``UMAMI_URL`` - URL of umami server
+* ``UNSPLASH_COLLECTION`` - Unsplash collection ID to get images from
+* ``UNSPLASH_REFERRAL`` - Name of referral to use, such as "mue"
+* ``UNSPLASH_TOKEN`` - Unsplash API token
