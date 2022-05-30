@@ -86,8 +86,19 @@ This is the Cloudflare Worker used for proxying requests to Unsplash, Pexels, Op
 * A free [Pexels](https://www.pexels.com) account and API key
 * A free [Unsplash](https://unsplash.com) account and API key (free for development, needs verification for production usage)
 * A free [Mapbox](https://www.mapbox.com) account and API key
+* A free [OpenWeatherMap](https://openweathermap.org) account and API key
 #### Starting
 1. Create a new Cloudflare worker (there is a guide [here](https://developers.cloudflare.com/workers/get-started/guide))
 2. Paste the ``src/proxy.js`` code from ``https://github.com/mue/workers`` into your worker
-3. Create environment variables where mentioned in the config object in the worker. If using umami, add the environment variables "UMAMI_ID" and "UMAMI_URL", otherwise set it to false in the config object
+3. Create environment variables where mentioned in the section below
 4. Click "Save and Deploy"
+#### Environment Variables
+``MAPBOX_TOKEN`` - Mapbox API token with access to the tiles
+``OPENWEATHERMAP_TOKEN`` - OpenWeatherMap API token
+``PEXELS_COLLECTION`` - Pexels collection ID to get images from
+``PEXELS_TOKEN`` - Pexels API token
+``UMAMI_ID`` - ID of umami site
+``UMAMI_URL`` - URL of umami server
+``UNSPLASH_COLLECTION`` - Unsplash collection ID to get images from
+``UNSPLASH_REFERRAL`` - Name of referral to use, such as "mue"
+``UNSPLASH_TOKEN`` - Unsplash API token
