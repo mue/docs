@@ -23,14 +23,11 @@ const config = {
   presets: [
     [
       "classic",
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/mue/docs/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -41,6 +38,7 @@ const config = {
 
   themeConfig: {
     image: "img/docusaurus-social-card.jpg",
+
     navbar: {
       title: "Mue",
       logo: {
@@ -50,8 +48,8 @@ const config = {
       items: [
         {
           label: "Read Docs",
-          type: 'doc',
-          docId: 'introduction',
+          type: "doc",
+          docId: "introduction",
           position: "left",
         },
         {
@@ -66,6 +64,7 @@ const config = {
         },
       ],
     },
+
     footer: {
       style: "dark",
       links: [
@@ -135,26 +134,28 @@ const config = {
       ],
       copyright: `Copyright © 2021-${new Date().getFullYear()} The Mue Authors. Built with Docusaurus.`,
     },
+
     algolia: {
-      appId: 'BBPY4O5XZH',
-      apiKey: 'f91719958835a04e7c72f811a9861176',
-      indexName: 'muetab',
-      contextualSearch: true
+      appId: "BBPY4O5XZH",
+      apiKey: "f91719958835a04e7c72f811a9861176",
+      indexName: "muetab",
+      contextualSearch: true,
     },
+
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
   },
-  scripts: [
-    {
-      src:
-        'https://umami.muetab.com/umami.js',
-      async: true,
-      defer: true,
-      'data-website-id': 
-        '1d32454c-49a9-4dab-afb9-1f1dd36da4d9'
-    },
+
+  plugins: [
+    [
+      "@dipakparmar/docusaurus-plugin-umami",
+      {
+        websiteID: "1d32454c-49a9-4dab-afb9-1f1dd36da4d9d",
+        analyticsDomain: "umami.muetab.com",
+      },
+    ],
   ],
 };
 
