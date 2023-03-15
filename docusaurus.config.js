@@ -12,7 +12,7 @@ const config = {
   organizationName: "mue",
   projectName: "docs",
 
-  onBrokenLinks: "warn",
+  onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
   i18n: {
@@ -23,16 +23,16 @@ const config = {
   presets: [
     [
       "classic",
-      ({
+      {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/mue/docs/edit/main/",
+          editUrl: "https://github.com/mue/docs/edit/main/",
+          path: "/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      }),
+      },
     ],
   ],
 
