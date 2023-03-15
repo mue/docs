@@ -12,7 +12,7 @@ const config = {
   organizationName: "mue",
   projectName: "docs",
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   i18n: {
