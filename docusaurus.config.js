@@ -1,105 +1,135 @@
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
-  title: 'Mue Docs',
-  tagline: 'Documentation for the Mue project',
-  url: 'https://docs.muetab.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'mue', 
-  projectName: 'docs',
-  onBrokenLinks: 'warn',
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+
+const config = {
+  title: "Mue Docs",
+  tagline: "Documentation for the Mue project",
+  favicon: "img/favicon.ico",
+
+  url: "https://docs.muetab.com",
+  baseUrl: "/",
+
+  organizationName: "mue",
+  projectName: "docs",
+
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
+  },
+
+  presets: [
+    [
+      "classic",
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          sidebarPath: require.resolve("./sidebars.js"),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+        },
+        theme: {
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      }),
+    ],
+  ],
+
   themeConfig: {
+    image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: 'Mue',
+      title: "Mue",
       logo: {
-        alt: 'Mue Logo',
-        src: 'https://res.cloudinary.com/mue/website/logo_round.webp',
+        alt: "Mue",
+        src: "img/favicon.ico",
       },
       items: [
         {
-          to: 'introduction',
-          activeBasePath: 'docs',
-          label: 'Read Docs',
-          position: 'left',
+          label: "Read Docs",
+          type: 'doc',
+          docId: 'introduction',
+          position: "left",
         },
         {
-          to: 'support',
-          label: 'Get Support',
-          position: 'left',
+          to: "support",
+          label: "Get Support",
+          position: "left",
         },
         {
-          to: 'https://muetab.com',
-          label: 'Visit Website',
-          position: 'left',
-        }
+          to: "https://muetab.com",
+          label: "Visit Website",
+          position: "left",
+        },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Development',
-              to: 'development',
+              label: "Development",
+              to: "development",
             },
             {
-              label: 'API',
-              to: 'api/introduction'
+              label: "API",
+              to: "api/introduction",
             },
             {
-              label: 'Marketplace',
-              to: 'marketplace/introduction'
+              label: "Marketplace",
+              to: "marketplace/introduction",
             },
             {
-              label: 'Blog',
-              to: 'blog/introduction'
-            }
+              label: "Blog",
+              to: "blog/introduction",
+            },
           ],
         },
         {
-          title: 'Social',
+          title: "Social",
           items: [
             {
-              label: 'ProductHunt',
-              href: 'https://www.producthunt.com/posts/mue',
+              label: "ProductHunt",
+              href: "https://www.producthunt.com/posts/mue",
             },
             {
-              label: 'Discord',
-              href: 'https://discord.gg/zv8C9F8',
+              label: "Discord",
+              href: "https://discord.gg/zv8C9F8",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/getmue',
+              label: "Twitter",
+              href: "https://twitter.com/getmue",
             },
             {
-              label: 'Facebook',
-              href: 'https://facebook.com/muetab'
-            }
+              label: "Facebook",
+              href: "https://facebook.com/muetab",
+            },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Source Code',
-              href: 'https://github.com/mue/docs',
+              label: "Source Code",
+              href: "https://github.com/mue/docs",
             },
             {
-              label: 'Roadmap',
-              href: 'https://trello.com/b/w7zhS7Hi/mue-tab'
+              label: "Roadmap",
+              href: "https://trello.com/b/w7zhS7Hi/mue-tab",
             },
             {
-              label: 'Support Us',
-              href: 'https://github.com/sponsors/davidcralph'
+              label: "Support Us",
+              href: "https://github.com/sponsors/davidcralph",
             },
             {
-              label: 'Issues',
-              href: 'https://github.com/mue/docs/issues'
-            }
+              label: "Issues",
+              href: "https://github.com/mue/docs/issues",
+            },
           ],
         },
       ],
@@ -111,23 +141,11 @@ module.exports = {
       indexName: 'muetab',
       contextualSearch: true
     },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
   },
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/mue/docs/edit/main/',
-            routeBasePath: '/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
   scripts: [
     {
       src:
@@ -139,3 +157,5 @@ module.exports = {
     },
   ],
 };
+
+module.exports = config;

@@ -1,6 +1,6 @@
 # Docs
 
-The Mue documentation is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+The Mue documentation is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ## Installation
 
