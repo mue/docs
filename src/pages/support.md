@@ -12,13 +12,3 @@ Directly contact the Mue team here.
 
 Email: hello@muetab.com<br/>
 Contact Form: https://muetab.com/contact
-
-## Twitter
-If you need to contact us via Twitter, we read the messages sent to our account. Please note that it is not checked too often, so responses may be delayed.
-
-Twitter: [@getmue](https://twitter.com/getmue)
-
-## Facebook
-We also check our Facebook page.  Please note that it is not checked too often, so responses may be delayed.
-
-Facebook: [muetab](https://www.facebook.com/muetab)

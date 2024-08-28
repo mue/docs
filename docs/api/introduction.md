@@ -21,7 +21,3 @@ Ratelimits are per route:
 /images/add - 10 requests per minute
 /images/delete - 10 requests per minute
 ```
-
-## Wrappers
-### Official
-* [Node.js](https://github.com/mue/nodewrapper)

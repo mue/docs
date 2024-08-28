@@ -118,12 +118,12 @@ const config = {
               href: "https://github.com/mue/docs",
             },
             {
-              label: "Roadmap",
-              href: "https://trello.com/b/w7zhS7Hi/mue-tab",
+              label: "Kaiso Site",
+              href: "https://kaiso.one",
             },
             {
               label: "Support Us",
-              href: "https://github.com/sponsors/davidcralph",
+              href: "https://github.com/sponsors/mue",
             },
             {
               label: "Issues",
@@ -132,7 +132,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © 2021-${new Date().getFullYear()} The Mue Authors. Built with Docusaurus.`,
+      copyright: `Copyright © 2021-${new Date().getFullYear()} The Mue Authors. Copyright © 2024-${new Date().getFullYear()} Kaiso One Ltd. Built with Docusaurus.`,
     },
 
     algolia: {
